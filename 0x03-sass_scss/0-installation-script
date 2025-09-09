@@ -1,0 +1,23 @@
+# Steps I followed to install SASS
+
+# 1. (Optional) Install Node Version Manager (NVM) on Ubuntu
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+
+# 2. Exit and reopen the terminal to activate NVM
+exit
+# reopen terminal
+
+# 3. Install Node.js version 20.16
+nvm install 20.16
+nvm use 20.16
+
+# 4. Verify Node.js and npm installation
+node -v
+npm -v
+
+# 5. Install SASS globally (version 3.7.4)
+npm install -g sass@3.7.4
+
+# 6. Verify SASS installation
+sass --version
+
